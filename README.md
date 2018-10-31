@@ -10,9 +10,9 @@ $python max_height.py inputFile.in outputFile.out
 ```
 
 ## Contents of our repository:
-README.md   - README file explaining the contents of our repository and our algorithm
-max_height.py  -the file where our algorithm is coded, when compiled will produce the solution
-infile.txt  -sample input file where we got input to test our algorithm
+README.md   - README file explaining the contents of our repository and our algorithm__
+max_height.py  -the file where our algorithm is coded, when compiled will produce the solution__
+infile.txt  -sample input file where we got input to test our algorithm__
 output.txt  -output file where we output the result of our algorithm based on the sample input
 
 ## Our Algorithm
