@@ -35,7 +35,7 @@ it is compared against all the blocks with a bigger area, which at the very most
 is the smallest, has n comparisons. Therefore, there are at most n x n operations, meaning
 it is compared against all n blocks, so the upper bound is n squared operations.
 
-The algorithm that we created takes up \theta (n) space because the dynamic programming table
+The algorithm that we created takes up Theta(n) space because the dynamic programming table
 we have is a one dimensional array containing n elements given an input of n blocks.
 
 ## Testing the Code
