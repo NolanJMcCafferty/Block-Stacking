@@ -1,6 +1,6 @@
-# Block-Stacking
+# CS140 Algorithms Homework 9 
 
-## CS140 Algorithms Homework 9 Block Dynammic Programming
+## Block-Stacking Dynammic Programming Algorithm
 
 ## Nolan McCafferty and Michele Pashby
 
