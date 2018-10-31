@@ -1,8 +1,13 @@
 # import libraries
 import operator
+import sys
+
+# read command line arguments in as file names
+infile = sys.argv[1]
+outfile = sys.argv[2]
 
 # read in infile and construct initial box types
-with open('ps9TestFiles/blocks100in', 'r') as infile:
+with open(infile, 'r') as infile:
     num_types = int(infile.readline())
     box_types = []
     for line in infile:
@@ -71,7 +76,7 @@ def get_max_height(rotations):
 
 max_height, num_blocks, blocks_used = get_max_height(rotations)
 
-with open('ps9TestFiles/100testout.txt', 'w') as outfile:
+with open(outfile, 'w') as outfile:
   outfile.write(str(num_blocks) + '\n')
   for block in blocks_used:
     outfile.write(str(block['depth']) + ' ' + str(block['width']) + ' ' + str(block['height']) + '\n')
