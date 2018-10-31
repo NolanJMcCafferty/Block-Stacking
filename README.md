@@ -1,6 +1,6 @@
 # Block-Stacking Dynammic Programming Algorithm
 ### Nolan McCafferty and Michele Pashby
-CS140 Algorithms Homework 9 Problem 3, Due 10/31/18
+CS140 Algorithms Homework 9 Problem 3, October 31, 2018
 
 
 ## Instructions
